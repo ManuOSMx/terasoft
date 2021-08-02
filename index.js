@@ -1,4 +1,5 @@
-console.log("¿Como están? Los saludo desde la rama main");
+console.log("Hola a todos, los saludo desde la consola");
 var editar = document.getElementById("edit");
 var branchName = "Rama Main";
-editar.innerHTML = "Hola saludo desde " + branchName;
+var evento = "Terasoft";
+editar.innerHTML = "Hola todos, los saluda " + evento;

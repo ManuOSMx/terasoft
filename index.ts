@@ -1,6 +1,7 @@
-console.log("¿Como están? Los saludo desde la rama main");
+console.log("Hola a todos, los saludo desde la consola");
 const editar = document.getElementById("edit");
 const branchName : String = "Rama Main";
 
-editar.innerHTML = `Hola saludo desde ${branchName}`;
+const evento : String = "Terasoft";
 
+editar.innerHTML = `Hola todos, los saluda ${evento}`;
